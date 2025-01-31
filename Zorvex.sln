@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zorvex.Application", "Zorvex.Application\Zorvex.Application.csproj", "{A36C2F6E-2E1E-48C7-B73D-306F687F74F8}"
 EndProject
@@ -15,6 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zorvex.UnitTests", "Zorvex.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8F1AA70-FE52-4FC5-AC89-27F374C182DC}"
 	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
 		Structure.txt = Structure.txt
 	EndProjectSection
 EndProject
