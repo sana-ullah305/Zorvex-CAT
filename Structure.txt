@@ -1,0 +1,41 @@
+﻿																				   Solution Root/
+├── Api/                          (Presentation Layer - ASP.NET Core)
+│   ├── Controllers/
+│   │   ├── AuthController.cs
+│   │   └── SampleController.cs
+│   ├── Middleware/               (Custom middleware if needed)
+│   ├── appsettings.json
+│   └── Program.cs
+│
+├── Application/                  (Business Logic Layer)
+│   ├── Users/
+│   │   ├── Commands/
+│   │   │   ├── RegisterUserCommand.cs
+│   │   │   └── RegisterUserHandler.cs
+│   │   ├── Queries/
+│   │   │   ├── GetUserQuery.cs
+│   │   │   └── GetUserHandler.cs
+│   │   └── Dtos/                (Data Transfer Objects)
+│   │       └── AuthResult.cs
+│   ├── Common/
+│   │   └── Extensions/           (Service registration extensions)
+│   └── ApplicationServiceExtensions.cs
+│
+├── Domain/                       (Core Domain Layer)
+│   ├── Entities/
+│   │   └── User.cs
+│   └── Contracts/
+│       └── IUserRepository.cs
+│
+├── Infrastructure/               (Persistence/Implementation Layer)
+│   ├── Data/
+│   │   └── DapperDbContext.cs
+│   ├── Repositories/
+│   │   └── UserRepository.cs
+│   ├── Authentication/           (Basic Auth components)
+│   │   └── BasicAuthHandler.cs
+│   └── InfrastructureServiceExtensions.cs
+│
+└── Tests/                        (Optional Test Project)
+    ├── UnitTests/
+    └── IntegrationTests/

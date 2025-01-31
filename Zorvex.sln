@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zorvex.Application", "Zorvex.Application\Zorvex.Application.csproj", "{A36C2F6E-2E1E-48C7-B73D-306F687F74F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zorvex.Domain", "Zorvex.Domain\Zorvex.Domain.csproj", "{FD68974A-2356-4EC4-94F3-2A466C454DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zorvex.Infrastructure", "Zorvex.Infrastructure\Zorvex.Infrastructure.csproj", "{7E0305C1-4DEF-4F05-B034-A9056BADB0D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2CE50520-783A-4F18-A959-F7221ED0C711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zorvex.UnitTests", "Zorvex.UnitTests\Zorvex.UnitTests.csproj", "{1469795C-ACF5-4FF8-A365-73897E65DCED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8F1AA70-FE52-4FC5-AC89-27F374C182DC}"
+	ProjectSection(SolutionItems) = preProject
+		Structure.txt = Structure.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zorvex.Api", "Zorvex.Api\Zorvex.Api.csproj", "{4B1530D3-5E40-4532-98EE-CA9C1E805BE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A36C2F6E-2E1E-48C7-B73D-306F687F74F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36C2F6E-2E1E-48C7-B73D-306F687F74F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36C2F6E-2E1E-48C7-B73D-306F687F74F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36C2F6E-2E1E-48C7-B73D-306F687F74F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD68974A-2356-4EC4-94F3-2A466C454DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD68974A-2356-4EC4-94F3-2A466C454DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD68974A-2356-4EC4-94F3-2A466C454DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD68974A-2356-4EC4-94F3-2A466C454DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E0305C1-4DEF-4F05-B034-A9056BADB0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0305C1-4DEF-4F05-B034-A9056BADB0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0305C1-4DEF-4F05-B034-A9056BADB0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0305C1-4DEF-4F05-B034-A9056BADB0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1469795C-ACF5-4FF8-A365-73897E65DCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1469795C-ACF5-4FF8-A365-73897E65DCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1469795C-ACF5-4FF8-A365-73897E65DCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1469795C-ACF5-4FF8-A365-73897E65DCED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1530D3-5E40-4532-98EE-CA9C1E805BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1530D3-5E40-4532-98EE-CA9C1E805BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1530D3-5E40-4532-98EE-CA9C1E805BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1530D3-5E40-4532-98EE-CA9C1E805BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1469795C-ACF5-4FF8-A365-73897E65DCED} = {2CE50520-783A-4F18-A959-F7221ED0C711}
+	EndGlobalSection
+EndGlobal
